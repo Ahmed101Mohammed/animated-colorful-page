@@ -22,6 +22,7 @@ div.par
     justify-content: center;
     align-items: center;
     border-radius: 30px;
+    box-shadow: -2px 3px 10px 0px black;
 }
 
 div.p1
@@ -170,7 +171,7 @@ div.circle
 
     100%
     {
-        left: 95%;
+        left: calc(100% - 45px);
         background-color: #7B2869;
         box-shadow: -3px 1px 6px 2px #7b28699a;
     }
@@ -205,7 +206,7 @@ div.circle
 
     100%
     {
-        right: 95%;
+        right: calc(100% - 45px);
         background-color: #3C6255;
         box-shadow: -3px 1px 6px 2px #3c62559d;
     }
@@ -240,7 +241,7 @@ div.circle
 
     100%
     {
-        left: 95%;
+        left: calc(100% - 45px);
         background-color: #0A2647;
         box-shadow: -3px 1px 6px 2px #0a264786;
     }
@@ -275,7 +276,7 @@ div.circle
 
     100%
     {
-        right: 95%;
+        right: calc(100% - 45px);
         background-color: #DC0000;
         box-shadow: -3px 1px 6px 2px #dc00008c;
     }
@@ -310,7 +311,7 @@ div.circle
 
     100%
     {
-        left: 95%;
+        left: calc(100% - 45px);
         background-color: #C58940;
         box-shadow: -3px 1px 6px 2px #c58940a1;
     }
@@ -345,7 +346,7 @@ div.circle
 
     100%
     {
-        right: 95%;
+        right: calc(100% - 45px);
         background-color: #557153;
         box-shadow: -3px 1px 6px 2px #5571539a;
     }
@@ -355,12 +356,12 @@ div.circle
 @keyframes body-background-coloring {
     0%
     {
-        background-color: #ffbaba77;
+        background-color: #FFBABA;
     }
 
     16.6%
     {
-        background-color: #7b286977;
+        background-color: #7b2869;
     }
 
     16.7%
@@ -370,23 +371,23 @@ div.circle
 
     33.3%
     {
-        background-color: #3c625575;
+        background-color: #3c6255;
     }
     33.4%
     {
-        background-color: #2c74b379;
+        background-color: #2c74b3;
     }
     50%
     {
-        background-color: #0a264775;
+        background-color: #0a2647;
     }
     50.1%
     {
-        background-color: #a3a08f75;
+        background-color: #a3a08f;
     }
     66.7%
     {
-        background-color: #dc000075;
+        background-color: #dc0000;
     }
     66.8%
     {
